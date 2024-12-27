@@ -1,5 +1,5 @@
 #!/bin/sh
-opkg install mc nano htop install ca-certificates wget-ssl
+opkg install mc nano htop ca-certificates wget-ssl
 opkg remove wget-nossl
 wget -O "/tmp/nfqws-keenetic.pub" "https://anonym-tsk.github.io/nfqws-keenetic/openwrt/nfqws-keenetic.pub"
 opkg-key add /tmp/nfqws-keenetic.pub
